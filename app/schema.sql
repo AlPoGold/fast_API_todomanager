@@ -1,0 +1,3 @@
+CREATE DATABASE task_manager_db;
+CREATE USER postgres WITH PASSWORD '123456';
+GRANT ALL PRIVILEGES ON DATABASE task_manager_db TO postgres;
